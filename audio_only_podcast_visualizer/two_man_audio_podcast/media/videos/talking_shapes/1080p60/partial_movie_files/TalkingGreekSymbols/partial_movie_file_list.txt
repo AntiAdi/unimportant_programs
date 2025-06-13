@@ -1,0 +1,9 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/aadityarajk/VS_CODE/audio_podcast/media/videos/talking_shapes/1080p60/partial_movie_files/TalkingGreekSymbols/3529212410_2554017197_3335171840.mp4'
+file 'file:/Users/aadityarajk/VS_CODE/audio_podcast/media/videos/talking_shapes/1080p60/partial_movie_files/TalkingGreekSymbols/3040924799_1754310298_835658279.mp4'
+file 'file:/Users/aadityarajk/VS_CODE/audio_podcast/media/videos/talking_shapes/1080p60/partial_movie_files/TalkingGreekSymbols/3040924799_4137721631_2862823007.mp4'
+file 'file:/Users/aadityarajk/VS_CODE/audio_podcast/media/videos/talking_shapes/1080p60/partial_movie_files/TalkingGreekSymbols/3040924799_1962859823_3180972030.mp4'
+file 'file:/Users/aadityarajk/VS_CODE/audio_podcast/media/videos/talking_shapes/1080p60/partial_movie_files/TalkingGreekSymbols/3040924799_2975180667_2855575393.mp4'
+file 'file:/Users/aadityarajk/VS_CODE/audio_podcast/media/videos/talking_shapes/1080p60/partial_movie_files/TalkingGreekSymbols/3040924799_2578249508_2956893938.mp4'
+file 'file:/Users/aadityarajk/VS_CODE/audio_podcast/media/videos/talking_shapes/1080p60/partial_movie_files/TalkingGreekSymbols/3040924799_1802962055_3891406618.mp4'
+file 'file:/Users/aadityarajk/VS_CODE/audio_podcast/media/videos/talking_shapes/1080p60/partial_movie_files/TalkingGreekSymbols/3040924799_3630789421_4011885776.mp4'
