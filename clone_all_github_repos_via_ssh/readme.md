@@ -26,3 +26,14 @@ This Python script clones **all public repositories** of any GitHub user using t
 
   ```bash
   pip install requests
+
+
+## How to use
+
+- Use the public version to clone only public repos. Only need the ssh running in this case.
+- To make this script work for private repos as well, use the private version :
+	1. Generate a GitHub PAT:
+	  - Go to https://github.com/settings/tokens
+	  - Scopes: repo (for full control of private repos).
+	2. Paste it when the script asks.
+	3. Make sure your ~/.ssh/id_ed25519.pub key is added to your GitHub account.
